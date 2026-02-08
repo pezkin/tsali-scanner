@@ -1,0 +1,35 @@
+{
+  "name": "notescan",
+  "version": "1.0.0",
+  "description": "React Native music notation scanner app powered by TensorFlow.js",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "latest",
+    "@tensorflow/tfjs": "latest",
+    "@tensorflow/tfjs-backend-cpu": "^4.13.0",
+    "@tensorflow/tfjs-backend-webgl": "^4.13.0",
+    "@tensorflow/tfjs-core": "^4.13.0",
+    "@tensorflow/tfjs-react-native": "^1.0.0",
+    "expo": "latest",
+    "expo-camera": "latest",
+    "expo-file-system": "latest",
+    "expo-gl": "^13.0.1",
+    "expo-image-manipulator": "latest",
+    "react": "latest",
+    "react-native": "latest",
+    "react-native-fs": "^2.20.0",
+    "react-native-gesture-handler": "latest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@types/react": "^18.2.0"
+  },
+  "private": true
+}
